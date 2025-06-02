@@ -5,7 +5,7 @@ const url = require('url');
 let webhookData = [];
 
 // Google Apps Script URL (als Umgebungsvariable setzen)
-const GAS_URL = process.env.GAS_URL || 'https://script.google.com/macros/s/AKfycbyMYVdGSIB1zeDWijs3-qm3v-WKYXGw9hgvE87eSc1yvAH8-X0M8szyqixlvv8ThCON8g/exec';
+const GAS_URL = process.env.GAS_URL || 'https://script.google.com/macros/s/AKfycbzIZbg87UoPo8X9FGvaYmht0GNupn_ShOrdx7KaO6vWWxaj1Qrr11D2zPPQuJOp1RNp/exec';
 
 // Funktion um LINE ID an Google Apps Script zu senden
 function sendLineIdToGAS(userId) {
