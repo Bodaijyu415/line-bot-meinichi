@@ -2,7 +2,7 @@ function sendLineIdToGAS(userId) {
   return new Promise((resolve, reject) => {
     // 関数内で環境変数を取得
     const gasUrl = process.env.GAS_URL || 'https://script.google.com/macros/s/AKfycbzIZbg87UoPo8X9FGvaYmht0GNupn_ShOrdx7KaO6vWWxaj1Qrr11D2zPPQuJOp1RNp/exec';
-    
+  
     console.log('🔍 使用するGAS URL:', gasUrl);
     
     const postData = JSON.stringify({
