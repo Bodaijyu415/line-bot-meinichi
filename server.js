@@ -3,7 +3,7 @@ const https = require('https');
 const url = require('url');
 
 // Google Apps Script URL
-const GAS_URL = process.env.GAS_URL || 'https://script.google.com/macros/s/AKfycbzIZbg87UoPo8X9FGvaYmht0GNupn_ShOrdx7KaO6vWWxaj1Qrr11D2zPPQuJOp1RNp/exec';
+const GAS_URL = process.env.GAS_URL || 'https://script.google.com/macros/s/AKfycbzfSDKk6ziBHqcyR8pEPXI1_DytQ8eoyUxXvglmiwXOtLcocIk9RzO9ELvwcef8H1AKVw/exec';
 
 // シンプルなGAS送信関数
 function sendToGAS(userId) {
